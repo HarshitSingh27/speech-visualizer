@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "my-speech-visualizer": "my-speech-visualizer",
+    "default": "my-speech-visualizer"
+  },
+  "targets": {},
+  "etags": {}
+}

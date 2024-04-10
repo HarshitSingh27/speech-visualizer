@@ -40,10 +40,10 @@ const speeches = [
     date: "1935",
     goal: "To motivate and mobilize the German workforce and industry towards the war effort and the economic revival of Germany under Nazi ideology.",
     visualizations: [
-       '/images/Adolf Hitler Speech at Krupp Factory in Germany (1935)  British Pathé/amplitude.png',
-       '/images/Adolf Hitler Speech at Krupp Factory in Germany (1935)  British Pathé/energy.png',
-       '/images/Adolf Hitler Speech at Krupp Factory in Germany (1935)  British Pathé/pitch track.png',
-       '/images/Adolf Hitler Speech at Krupp Factory in Germany (1935)  British Pathé/emotion.png',
+       '/images/adolfhitler/amplitude.png',
+       '/images/adolfhitler/energy.png',
+       '/images/adolfhitler/pitch track.png',
+       '/images/adolfhitler/emotion.png',
     ],
   },
   {
