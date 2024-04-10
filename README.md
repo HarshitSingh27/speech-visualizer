@@ -48,3 +48,12 @@ For a deeper dive into our speech processing methodology, visit our Colab notebo
 ## Acknowledgments
 
 This project was inspired by the significant impact that vocal delivery has on the effectiveness of public speeches. We extend our gratitude to all contributors and resources that made this exploration possible.
+
+## Interface Screenshots
+
+![Speech Selection Interface](./public/images/Screenshot 2024-04-09 at 11.44.20 PM.png)
+*Speech Selection Interface*
+
+![Audio Analysis Interface](./public/images/Screenshot-2.png)
+*Audio Analysis Interface*
+
