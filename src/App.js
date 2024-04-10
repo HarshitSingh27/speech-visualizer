@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import SpeechDisplay from './SpeechDisplay'; // Make sure this path matches the location of your SpeechDisplay component file
-
+import React, { useState, useEffect} from 'react';
+import SpeechDisplay from './SpeechDisplay';  
 const speeches = [
   {
     title: "I Have a Dream",
@@ -85,6 +84,9 @@ function App() {
   const handleSelectChange = (event) => {
     setSelectedSpeechIndex(event.target.value);
   };
+  useEffect(() => {
+    alert('Please be aware that the following content may include offensive or upsetting language. Click OK to continue.');
+  }, []);
   const headerStyle = {
     width: '100%',
   textAlign: 'center',
