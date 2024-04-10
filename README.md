@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Resonant Voices
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Resonant Voices is a project developed for CS467 Social Visualization, exploring the impact of vocal delivery in public speeches through the analysis of audio patterns. Our team delved into famous historical and political speeches, examining how pitch, rate of speech, amplitude, and extracted emotions play a crucial role in audience engagement and message retention.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+What makes a speech impactful? While content and the social relevance of the speaker are paramount, the delivery of the speech—particularly the use of vocal tones—can significantly influence its reception. This project aims to highlight the critical balance between content and delivery, focusing on engagement through sound and learning speech patterns from the most influential figures in history.
 
-### `npm start`
+## Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our research was driven by the following questions:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- What common audio patterns, such as pitch, rate of speech, amplitude, and extracted emotions, are present in influential historical and political speeches?
+- How do these identified audio features and emotions inform us about the speaker's intent and the speech's impact on its audience?
 
-### `npm test`
+## Data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We analyzed five publicly available speeches, each approximately five minutes long, including speeches by Adolf Hitler, Eleanor Roosevelt, Martin Luther King Jr., Nelson Mandela, and Donald Trump. These speeches were chosen for their historical and political significance and their availability in .wav format.
 
-### `npm run build`
+## Methodology
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Our analysis utilized Python packages like `librosa` for extracting audio features and a pre-trained deep learning model for emotion prediction. We also employed ReactJs for the visualization component of the project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Findings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Our findings revealed that:
 
-### `npm run eject`
+- Effective speeches use variations in pitch and energy to emphasize key points.
+- The rate of speech and rhythm can significantly affect audience engagement.
+- The speaker's intent, reflected through audio patterns, can motivate and mobilize the audience in diverse ways.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Hosted URL
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project is hosted at: [https://my-speech-visualizer.web.app/](https://my-speech-visualizer.web.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Speech Processing Link
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For a deeper dive into our speech processing methodology, visit our Colab notebook: [Google Colab Notebook](https://colab.research.google.com/drive/1qMy2Dn9N6lBvweNyd0U3v1CqVsIPHm8K?usp=sharing)
 
-## Learn More
+## Team Members
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Harshit
+- Minrui
+- Parisa
+- Utkarsh
+- Chenyao
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was inspired by the significant impact that vocal delivery has on the effectiveness of public speeches. We extend our gratitude to all contributors and resources that made this exploration possible.
