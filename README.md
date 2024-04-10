@@ -51,10 +51,11 @@ This project was inspired by the significant impact that vocal delivery has on t
 
 ## Interface Screenshots
 
-![Speech Selection Interface](./public/images/speech-selection-interface.png)
 *Speech Selection Interface*
+![Speech Selection Interface](./public/images/speech-selection-interface.png)
 
-![Audio Analysis Interface](./public/images/audio-analysis-interface.png)
 *Audio Analysis Interface*
+![Audio Analysis Interface](./public/images/audio-analysis-interface.png)
+
 
 
